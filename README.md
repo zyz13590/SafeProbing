@@ -32,7 +32,7 @@ python scripts/main.py --model_name qwen --model_path your_model_path --adapter_
 ```
 
 
-### 🔁 (Optional) Re-Training the Adapter
+### (3) (Optional) 🔁 Re-Training the Adapter
 
 If you’d like to re-train the safety-enhanced adapter yourself:
 
