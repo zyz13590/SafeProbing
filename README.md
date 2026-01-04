@@ -32,7 +32,7 @@ python scripts/main.py --model_name qwen --model_path your_model_path --adapter_
 ```
 
 
-## 🔁 (Optional) Re-Training the Adapter
+### 🔁 (Optional) Re-Training the Adapter
 
 If you’d like to re-train the safety-enhanced adapter yourself:
 
@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --model_path your_qwen_path --beta 0.5
 ```
 
 
-## 🧪 Evaluation (Safety Judging)
+### 🧪 Evaluation (Safety Judging)
 
 We use **Llama-Guard-3-8B** to evaluate the harmfulness of model-generated responses.
 Please download the model from: [https://huggingface.co/meta-llama/Llama-Guard-3-8B](https://huggingface.co/meta-llama/Llama-Guard-3-8B)
@@ -52,6 +52,11 @@ Example:
 ```bash
 python scripts/judge.py --prompt your_prompt --response model_generated_response --device 0
 ```
+
+## Future Updates
+
+We are committed to updating and refining this repository over time.
+
 
 ## Examples of Jailbreaking Prompts
 **AutoDAN Prompt**
