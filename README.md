@@ -23,7 +23,7 @@ python scripts/main.py --model_name qwen --model_path your_model_path --device 0
 ```
 
 
-### (2) (Optional) Safety-Enhanced Model (Using the Provided Adapter)
+### (2) (Optional) Safety-Enhanced Model to replicate the results (via the Provided Adapter)
 
 Use the pre-trained adapter from `lora_modules/qwen`:
 
